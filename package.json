@@ -11,10 +11,10 @@
     "postpretty": "yarn lint --fix",
     "test": "nyc --reporter=html --reporter=text --reporter=lcov mocha -r @babel/register",
     "runQuery": "babel-node ./src/utils/runQuery",
-	"coverage": "nyc report --reporter=text-lcov | coveralls"
-	
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
