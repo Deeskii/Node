@@ -1,4 +1,4 @@
-# Express API template
+# Express API template with PostgreSQL
 
 [![Coverage Status](https://coveralls.io/repos/github/Deeskii/Node/badge.svg?branch=master)](https://coveralls.io/github/Deeskii/Node?branch=master)
 
