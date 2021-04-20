@@ -1,3 +1,3 @@
-# export everything from the middleware file
+// export everything from the middleware file
 
 export * from './middleware';
