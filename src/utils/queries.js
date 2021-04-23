@@ -15,3 +15,21 @@ VALUES ('chidimo', 'first message'),
 `;
 
 export const dropMessagesTable = 'DROP TABLE messages';
+
+
+export const insertUsers = `
+INSERT INTO users(username, email)
+VALUES ('dee', 'dee@me.com')
+
+`;
+
+export const createUsersTable = `
+DROP TABLE IF EXISTS users;
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR DEFAULT '',
+  email VARCHAR NOT NULL
+  )
+  `;
+  
+ export const dropUsersTable = 'DROP TABLE users'; 
