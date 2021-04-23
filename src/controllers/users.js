@@ -4,7 +4,7 @@ const usersModel = new Model('users');
 
 export const usersPage = async (req, res) => {
   try {
-    const data = await usersMdel.select('username');
+    const data = await usersModel.select('username');
     res.status(200).json({ users: data.rows });
   } catch (err) {
     res.status(200).json({ users: err.stack });
