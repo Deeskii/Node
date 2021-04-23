@@ -4,3 +4,5 @@ yarn-error.log
 .nyc_output
 coverage
 build/
+.coveralls.yml
+appveyor.yml
